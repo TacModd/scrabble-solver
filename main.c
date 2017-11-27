@@ -22,7 +22,7 @@ int main(int argc, char* argv[])
     node* root = NULL;
     
     // the dictionary to use
-    char* dictionary = "wordlist.txt"
+    char* dictionary = "wordlist.txt";
     
     // load dictionary into memory
     node* loaded = load(dictionary, root);
