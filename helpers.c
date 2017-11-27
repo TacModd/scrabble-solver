@@ -108,7 +108,7 @@ node* load(const char* dictionary, node* root)
 {
     root = calloc(1, sizeof(node)); // use this to anchor the trie
     
-    wordcount = 0; // use this to make sure all words are being entered correctly
+    int wordcount = 0; // use this to make sure all words are being entered correctly
     
     // open dictionary
     FILE* dictionptr = fopen(dictionary, "r");
