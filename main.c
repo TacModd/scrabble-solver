@@ -11,7 +11,7 @@ int main(int argc, char* argv[])
     if (argc != 2)
     {
         // clarify usage
-        printf("Usage: speller [letters (up to 8 lowercase)] \n");
+        printf("Usage: main [letters (up to 8 lowercase)] \n");
         return 1;
     }
     
@@ -22,7 +22,7 @@ int main(int argc, char* argv[])
     node* root = NULL;
     
     // the dictionary to use
-    char* dictionary = "wordlist.txt";
+    char* dictionary = "scrabble.txt";
     
     // load dictionary into memory
     node* loaded = load(dictionary, root);
